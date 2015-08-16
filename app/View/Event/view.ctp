@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<div class="nav">
         <div class="nav_sect_selected"><div class="logo"><a href="/">
-<div class="lion"><img src="/img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</a></div></div>
+<div class="lion"><img src="/perabeats/img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</a></div></div>
         <div class="nav_sect" style="border-left:none"><a href="../">NEWS</a></div>
         <div class="nav_sect" style="border-left:none"><a href="../">EVENTS</a></div>
         <div class="nav_sect">BLOG</div>
@@ -33,15 +33,13 @@
               <div class="date_str"><?php echo date('M', strtotime($event['event']['event_date_added'])) ?></div>
               <div class="timed"><?php echo date('g:i a', strtotime($event['event']['event_date_added'])) ?></div></div>	
                 <div class="single_topic"><?php echo $event['event']['event_topic'];  ?></div>
-                <div class="single_by">BY <span>Sandaruwan nanayakkara</span></div>
+                <div class="single_by">BY <span><?php echo $event['log_user']['lg_fname']." ".$event['log_user']['lg_lastname'];  ?></span></div>
           </div>
-            <div class="single_image"><img src="/perabeats/images/news/khan-collazo.jpg" width="970" height="434" alt=""/></div>
+            <div class="single_image"><img src="/perabeats/images/events/<?php echo $event['event']['event_main_img'];  ?>"  alt=""/></div>
+            <div class="single_content"><?php echo $event['event']['event_content'];  ?></div>
    	  </div>
 	</div>
-    <div class="content">
     
-    	<div class="left_panel">
-        </div>
-    	
-	</div>
+    <div class="content">
+    </div>
 </div>

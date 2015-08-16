@@ -3,9 +3,9 @@
 <div class="wrapper">
 	<div class="nav">
             <div class="nav_sect_selected"><div class="logo"><a href="/perabeats"><div class="lion"><img src="img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</div></a></div>
-        <div class="nav_sect" style="border-left:none"><a href="News">NEWS</a></div>
-        <div class="nav_sect">EVENTS</div>
-        <div class="nav_sect">BLOG</div>
+        <div class="nav_sect" style="border-left:none"><a href="news">NEWS</a></div>
+        <div class="nav_sect"><a href="event">EVENTS</a></div>
+        <div class="nav_sect"><a href="event">BLOG</a></div>
         <div class="nav_sect" style="border-right:2px solid #ffffff;">BEAT OF A PLAYER</div>
         <div class="uni_sel" ><div></div><div></div><div></div></div>
 	</div>
@@ -37,6 +37,7 @@
 
 
         	<div class="news_sect">
+  				<a href="/perabeats/news/view/<?php  echo $newses['news']['news_hash']; ?>">          
             	<div class="news_img"><img src="images/news/<?php  echo $newses['news']['news_main_img']; ?>" width="250" alt=""/></div>
                 <div class="news_head"><?php  echo $newses['news']['news_topic']; ?></div>
                 <div class="news_desc"><?php  echo $newses['news']['news_desc']; ?></div>
@@ -49,24 +50,12 @@
   </tr>
 </table>
 </div>
+</a>
           </div>
  <?php endforeach; ?>
-            <div class="news_sect"> 
-            	<div class="news_img"><img src="images/news/carrom_0.jpg" width="250" alt=""/></div>
-                <div class="news_head">INTER UNIVERSITY RUNNING CHAMPIONSHIP</div>
-                <div class="news_desc">After two days of blistering and beautiful display of football, UOM and EUSL qualified for the final of Mora Cup organized by the University of Moratuwa.</div>
-             <div class="news_stat"><table width="0" border="0">
-  <tr>
-    <td><img src="images/heart.png" width="15" height="14" alt=""/></td>
-    <td>256</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
-</div>
-            </div>
+    
            
-        </div>
+       
 	</div>	
 	</div>
 </div>

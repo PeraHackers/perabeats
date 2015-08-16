@@ -27,7 +27,9 @@ class EventController extends AppController{
             'footer.css',
             'nav.css'
         ));
-        $this->set('event', $this->event->find('all'));
+        $this->set('event', $this->event->find('all', array(
+        'order' => 'event.event_id DESC'
+  	  )));
     }
     public function view($sid) {
         if(!isset($sid)){

@@ -19,6 +19,7 @@
 .news_port {
 	overflow:hidden;margin-top:40px;
 }
+.news_port .news_sect a{text-decoration:none; color:#ffffff}
 .news_port .news_sect {
 	width:215px;
 	height:320px;color:#ffffff;

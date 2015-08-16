@@ -2,9 +2,9 @@
 <div class="wrapper">
     <div class="nav">
         <div class="nav_sect_selected"><div class="logo"><a href="/perabeats/">
-<div class="lion"><img src="/img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</a></div></div>
-        <div class="nav_sect" style="border-left:none"><a href="./News">NEWS</a></div>
-        <div class="nav_sect">EVENTS</div>
+<div class="lion"><img src="/perabeats/img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</a></div></div>
+        <div class="nav_sect" style="border-left:none"><a href="./news">NEWS</a></div>
+        <div class="nav_sect"><a href="./event">EVENTS</a></div>
         <div class="nav_sect">BLOG</div>
         <div class="nav_sect" style="border-right:2px solid #ffffff;">BEAT OF A PLAYER</div>
         <div class="uni_sel" ><div></div><div></div><div></div></div>
@@ -40,7 +40,7 @@
      <div class="single_topic"><?php echo $newses['news']['news_topic'];  ?></div>
      <div class="single_by">BY <span><?php echo $newses['log_user']['lg_fname'] ."  ".$newses['log_user']['lg_lastname'];  ?></span></div>
   </div>             
-     <div class="single_image"><a href="News/view/<?php echo $newses['news']['news_hash']?>"><img src="/perabeats/images/news/<?php echo $newses['news']['news_main_img'];  ?>" /></a></div>	
+     <div class="single_image"><a href="/perabeats/news/view/<?php echo $newses['news']['news_hash']?>"><img src="/perabeats/images/news/<?php echo $newses['news']['news_main_img'];  ?>" /></a></div>	
      <div class="single_desc"><?php echo $newses['news']['news_small_desc'];  ?></div>
   
   

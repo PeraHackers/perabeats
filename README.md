@@ -2,6 +2,26 @@
 Welcome to perabeats
 ====================
 
+This is gonna be the official site of the perabeats official organization.
+
+To setup
+--------
+You should have a LAMP or WAMP stack in your pc
+[LAMP INSTALL](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
+
+-Clone the project to htdoc or www folder to enable access from the url
+-Then Restore the latest Database Backup from DBBackup Folder 
+-Go to app/config/database.php and change the db attributes username and password
+-Access the url localhost/perabeats
+
+If css are not loading please check for server settings in httpd.conf
+<Directory />
+    Options FollowSymLinks
+    AllowOverride all
+    Order deny,allow
+    Allow from all
+</Directory>
+
 
 CakePHP
 =======

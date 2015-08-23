@@ -1,4 +1,3 @@
-
 <div class="wrapper">
     <div class="nav">
         <div class="nav_sect_selected"><div class="logo"><a href="/perabeats/">
@@ -22,14 +21,10 @@
 <div class="wrapper">
     <div class="pseudo"></div>
     <div class="content">
-
         <div class="left_panel">BLOG
         </div>
         <div class="right_panel">
             <div class="mid_header">NEWS</div>
-            
-            
-            
             <?php foreach ($news as $newses): ?>
   
   <div class="single_header">

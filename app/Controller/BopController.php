@@ -25,5 +25,21 @@ class BopController extends AppController{
                 );
         return $this->bop->find('first', $params);
     }
+	
+	public function index() {
+        $this->layout = "view";
+        $this->set('scripts', array(
+            'pages/view.js'
+        ));
+        $this->set('css', array(
+            'single.css',
+            'font.css',
+            'wrapper.css',
+            'footer.css',
+            'nav.css'
+        ));
+      //  $this->set('blogs', $this->blog->find('all'));
+    
+	}
     
 }

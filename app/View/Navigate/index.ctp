@@ -5,8 +5,8 @@
             <div class="nav_sect_selected"><div class="logo"><a href="/perabeats"><div class="lion"><img src="img/pera_beats.jpg" width="30" height="30" alt=""/></div>PERA BEATS</div></a></div>
         <div class="nav_sect" style="border-left:none"><a href="news">NEWS</a></div>
         <div class="nav_sect"><a href="event">EVENTS</a></div>
-        <div class="nav_sect"><a href="event">BLOG</a></div>
-        <div class="nav_sect" style="border-right:2px solid #ffffff;">BEAT OF A PLAYER</div>
+        <div class="nav_sect"><a href="blog">BLOG</a></div>
+        <div class="nav_sect" style="border-right:2px solid #ffffff;"><a href="bop">BEAT OF A PLAYER</a></div>
         <div class="uni_sel" ><div></div><div></div><div></div></div>
 	</div>
     

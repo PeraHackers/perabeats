@@ -15,10 +15,10 @@
 .left_panel .single_image{height:373px;width:605px;overflow:hidden;margin-top:10px;}
 .right_panel .feed_header {font-size:28px;font-family:'novecento_sans_widemedium';padding-top:5px;border-top:3px #012644 solid;color:#012644}
 .left_panel .single_content{margin-top:10px;font-family:"Segoe UI"; color:#222222; font-size:14px;}
-.blog_post{width:310px; float:left; margin:8px;border-radius:10px;-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
+.blog_post{width:310px; float:left; margin:8px;position:relative; /*-webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);
-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75); overflow:hidden;background:#0e608c; color:#fff;}
+box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.75);background:#0e608c; color:#fff;*/ overflow:hidden;}
 .blog_post .blog_image img{width:310px;}
 .blog_post .blog_image{width:310px;overflow:hidden;overflow:hidden}
-.blog_post .blog_header{font-size:18px; margin:5px;}
-.blog_post .blog_desc{font-size:14px; font-family:"Segoe UI Light"; margin:5px;}
+.blog_post .blog_header{font-size:20px; margin:5px; text-transform:uppercase;color:#222222; }
+.blog_post .blog_desc{font-size:14px;  margin:5px;color:#444444;font-family:"Segoe UI";}

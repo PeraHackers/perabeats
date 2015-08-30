@@ -12,14 +12,25 @@
     
     <div class="anm">
 		<div class="anm_sect">
-        	<div class="anm_img"><img src="images/anm/2.jpg"  alt=""/></div>
+        	<div class="anm_img"><img src="images/anm/4.jpg"  alt=""/></div>
             <div class="anm_desc_pb ">PERA BEATS</div>
        </div>
       <div class="uni_list">
-        <div class="uni_sect">UNIVERSITY OF PERADENIYA</div>
         <div class="uni_sect">UNIVERSITY OF COLOMBO</div>
-        <div class="uni_sect">UNIVERSITY OF JAYAWARDANAPURA</div>
+        <div class="uni_sect">EASTERN UNIVERSITY</div>        
+        <div class="uni_sect">UNIVERSITY OF J'PURA</div>
+        <div class="uni_sect">UNIVERSITY OF KELANIYA</div>
+        <div class="uni_sect">UNIVERSITY OF MORATUWA</div>
+        <div class="uni_sect">UNIVERSITY OF PERADENIYA</div>
+        <div class="uni_sect">UNIVERSITY OF RAJARATA</div>
+        <div class="uni_sect">UNIVERSITY OF RUHUNA</div>
         <div class="uni_sect">UNIVERSITY OF SABARAGAMUWA</div>
+        <div class="uni_sect">SOUTH EASTERN UNIVERSITY</div>
+        <div class="uni_sect">UNIVERSITY OF UVA WELLASSA</div>
+        <div class="uni_sect">UNIVERSITY OF VPA</div>
+
+        <div class="uni_sect">UNIVERSITY OF WAYAMBA</div>
+        <div class="uni_sect">OTHER</div>
     </div>
 	</div>
     

@@ -23,7 +23,7 @@ class BlogController extends AppController{
             'pages/view.js'
         ));
         $this->set('css', array(
-            'view.css',
+            'single.css',
             'font.css',
             'wrapper.css',
             'footer.css',

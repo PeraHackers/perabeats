@@ -17,4 +17,8 @@ class blog extends AppModel{
      */
     var $name = "blog";
     public $useTable = 'blog';
+	
+	
+	
+	
 }

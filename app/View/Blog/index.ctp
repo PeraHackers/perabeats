@@ -21,18 +21,28 @@
 <div class="wrapper">
     <div class="pseudo"></div>
     <div class="content">
-
-        <div class="left_panel">BLOG
-        </div>
-        <div class="right_panel">
-            <div class="mid_header">NEWS</div>
+    
+    <div class="blog_post">
+	  <div class="blog_image"><img src="images/blog/1.jpg"></div>
+      <div class="blog_header">Sri Lankan FootBall</div>
+      <div class="blog_desc">Do we need to reform the official participation of Sri Lankan Foot Ball?</div>
+    </div>
+    <div class="blog_post">
+	  <div class="blog_image"><img src="images/blog/1.jpg"></div>
+      <div class="blog_header">Sri Lankan FootBall</div>
+      <div class="blog_desc">Do we need to reform the official participation of Sri Lankan Foot Ball?</div>
+    </div>
+    <div class="blog_post">
+	  <div class="blog_image"><img src="images/blog/1.jpg"></div>
+      <div class="blog_header">Sri Lankan FootBall</div>
+      <div class="blog_desc">Do we need to reform the official participation of Sri Lankan Foot Ball?</div>
+    </div>
             <?php foreach ($blogs as $blog): ?>
   
         <p><?php echo "<a href=\"view/".$blog['blog']['blog_hash']."\">".$blog['blog']['blog_id']." ".$blog['blog']['blog_topic'] ; ?></a></p>
  
     <?php endforeach; ?>
         </div>
-    </div>
     <div class="content">
 
         <div class="left_panel">Blog

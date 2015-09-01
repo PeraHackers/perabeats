@@ -5,7 +5,7 @@
         <div class="nav_sect" style="border-left:none"><a href="./News">NEWS</a></div>
         <div class="nav_sect"><a href="./Event">EVENTS</a></div>
         <div class="nav_sect"><a href="../Blog">BLOG</a></div>
-        <div class="nav_sect" style="border-right:2px solid #ffffff;">BEAT OF A PLAYER</div>
+        <div class="nav_sect" style="border-right:2px solid #ffffff;"><a href="../bop">BEAT OF A PLAYER</a></div>
         <div class="uni_sel" ><div></div><div></div><div></div></div>
     </div>
 

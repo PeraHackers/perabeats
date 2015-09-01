@@ -54,9 +54,9 @@
                 <div class="news_desc"><?php  echo $newses['news']['news_desc']; ?></div>
                 <div class="news_stat"><table width="0" border="0">
   <tr>
-    <td><img src="images/heart.png" width="15" height="14" alt=""/></td>
+    <td><img src="images/time.png" width="13" height="13" alt=""/></td>
     <td>125</td>
-    <td>&nbsp;</td>
+    <td><img src="images/eye.png" /></td>
     <td>&nbsp;</td>
   </tr>
 </table>
@@ -73,7 +73,7 @@
 <div class="wrapper" style="background:#535471">
   <div class="content">
     	<div class="cent_header"><div>BEAT OF A PLAYER</div></div>
-        <div class="bop_limg"><img src="images/news/<?php echo $bop['bop']['bop_main_img'] ?>" width="458" height="430" alt=""/></div>
+        <div class="bop_limg"><img src="images/bop/<?php echo $bop['bop']['bop_main_img'] ?>" width="458" alt=""/></div>
         <div class="bop_rdesc">
         	<div class="bop_header"><?php echo $bop['bop']['bop_topic'] ?></div>
             <div class="bop_desc"><?php echo $bop['bop']['bop_small_desc'] ?></div>

@@ -24,7 +24,7 @@
 	width:215px;
 	height:320px;color:#ffffff;
 	float:left;overflow:hidden;
-	margin-left:24px;
+	margin-left:24px;margin-bottom:24px;
 	background:#012644;position:relative;
 }
 .news_port .news_sect .news_img {
@@ -33,7 +33,7 @@
 	overflow:hidden;
 }
 .news_port .news_sect .news_head {
-	margin:4px;
+	margin:4px;text-transform:capitalize;
 	color:#fff;border-bottom:2px solid #ffffff;
 }
 .news_port .news_sect .news_desc {

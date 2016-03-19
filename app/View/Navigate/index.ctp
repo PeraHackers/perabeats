@@ -12,7 +12,7 @@
     
     <div class="anm">
 		<div class="anm_sect">
-        	<div class="anm_img"><img src="images/anm/4.jpg"  alt=""/></div>
+        	<div class="anm_img"><img src="images/anm/2.jpg"  alt=""/></div>
             <div class="anm_desc_pb ">PERA BEATS</div>
        </div>
       <div class="uni_list">

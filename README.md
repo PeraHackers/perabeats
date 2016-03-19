@@ -23,7 +23,10 @@ If css are not loading please check for server settings in httpd.conf
     Allow from all
 </Directory>
 ```	
-
+In ubuntu, enable override
+```
+sudo a2enmod rewrite
+```
 CakePHP
 =======
 
